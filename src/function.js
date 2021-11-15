@@ -61,3 +61,37 @@ let products = [
 ]
 
 addToCart4(products)
+
+function add(...numbers) {
+    let total = 0;
+    for (let i = 0; i < numbers.length ; i++) {
+        total = total + numbers[i]
+        
+    }
+    console.log(total)
+}
+
+    
+add(20,30)
+add(20,30,40)
+add(20,50,60,40)
+
+let numbers = [30,10,500,600,120]
+console.log(numbers)
+
+let  [ic,ana,dolu,[icSehirleri]] =[
+{name:"ic", populations:"20m"},
+{name:"ana", populations:"30m"},
+{name:"dolu", populations:"10m"},
+[
+    ["Ankara","Konya"],
+    ["istanbul","bursa"],
+    ["sinop","trabzon"],
+]
+]
+console.log(ic.name)
+console.log(ic.populations)
+console.log(icSehirleri)
+
+let product5 = {productName:"Elma", unitPrice:10, quantity:5}
+console.log(product5)
